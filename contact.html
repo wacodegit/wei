@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact form</title>
+    </head>
+    <body>
+        <!--Page will be redirected tp submit.html when user click on submit button-->
+        <form action="submit.html" method="POST">
+        <!--Set up three input fields with labels-->
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Newbie" required pattern="[a-zA-Z]+" minlength="2">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="aeea@gmail.com" required minlength="10">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Telephone: </label>
+                <input type="tel" name="phone" id="phone" placeholder="0412345678" pattern="[0-9]{10}">
+            <br>
+            <!--Set up 02 radio buttons-->
+            <div>
+                <span>Receive newsletter from us?</span>
+                <br>
+                <input type="radio" name="question" id="yes" value="yes" checked>
+                <label for="yes">Yes</label>
+                <input type="radio" name="question" id="no" value="no">
+                <label for="no">No</label>
+            </div>
+            <br>
+            <!--03 checkbox options-->
+            <div>
+                <span>If yes, please tick on the options for how you'd like to receive newsletter.</span>
+                <br>
+                <input type="checkbox" name="option" id="email" value="email">
+                <label for="email">Email</label>
+                <input type="checkbox" name="option" id="text-mes" value="text-mes">
+                <label for="text-mes">Text Message</label>
+                <input type="checkbox" name="option" id="post" value="post">
+                <label for="post">Mail Post</label>
+            </div>
+            <br>
+            <!--Submit button-->
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
