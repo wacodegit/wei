@@ -1,4 +1,4 @@
-# Welcome to our debrief project!
-## Feel free to send me a pull request. Thank you.
-We are Team No.6 and Names of our 4 team members are as follows:
+# Welcome to our debrief project in Generation!
+## Please let me know if you have any questions. Thank you.
+We are Team 6 and there are 4 team members below
 Team Leader: Hung Pham; Team members: Ron Fan; Donruethai Wanchatchankadee; Wei
